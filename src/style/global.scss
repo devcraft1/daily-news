@@ -3,22 +3,21 @@
 // COLORS
 $primary: #00d1b2;
 $info: rgba(90, 9, 9, 0.89);
-$success: #23D160;
+$success: #23d160;
 $warning: rgb(230, 226, 215);
-$danger: #FF3860;
-$light: #F5F5F5;
-$dark: #363636; 
+$danger: #ff3860;
+$light: #f5f5f5;
+$dark: #363636;
 
 // TEXT
-$text: #4A4A4A;
-$link: #3273DC;
+$text: #4a4a4a;
+$link: #3273dc;
 
 // $body-family:'sans-serif';
 // $body-family:'monospace';
-$body-family:'Tangerine', serif;
+$body-family: "sans-serif";
 // $body-family: 'Calibri';
 // $body-family:'cursive';
-
 
 // $body-family:Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 // $body-font-weight: bold;
@@ -48,10 +47,9 @@ $section-padding-large: 6rem 1.5rem;
 // IMPORT FONT AWESOME
 @import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
 
-// Google Fonts
-// @import 'https://fonts.googleapis.com/sass?family=Open+Sans&display=swap';
+// // Google Fonts
+// // @import 'https://fonts.googleapis.com/sass?family=Open+Sans&display=swap';
 
-// @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
+// // @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 
-@import "https://fonts.googleapis.com/css?family=Tangerine";
-
+// @import "https://fonts.googleapis.com/css?family=Tangerine";

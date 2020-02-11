@@ -33,7 +33,7 @@ function Footer(props) {
             <div className="columns">
               <div className="column is-4">
                 <div className="menu">
-                  <p className="menu-label">farms</p>
+                  {/* <p className="menu-label">farms</p> */}
                   {/* <ul className="menu-list">
                     <li>
                       <Link to="/pricing">Pricing</Link>
@@ -49,11 +49,9 @@ function Footer(props) {
                   <p className="menu-label">Links</p>
                   <ul className="menu-list">
                     <li>
-                      <Link to="/about">About</Link>
+                      <Link to="/news">News</Link>
                     </li>
-                    <li>
-                      {/* <Link to="/contact">Contact</Link> */}
-                    </li>
+                    <li>{/* <Link to="/contact">Contact</Link> */}</li>
                     <li>
                       <a
                         target="_blank"
@@ -72,7 +70,7 @@ function Footer(props) {
                   <ul className="menu-list">
                     <li>
                       <a
-                        href="https://facebook.com/"
+                        href="https://facebook.com/gacs"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -85,7 +83,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/gacs"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -98,7 +96,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/"
+                        href="https://twitter.com/gacs"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

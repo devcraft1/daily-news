@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
-import Slide from '../component/Page1'
+import Slide from "../component/Page1";
 // import { useRouter } from "../util/router.js";
 
 function MainPage(props) {
@@ -9,18 +9,16 @@ function MainPage(props) {
 
   return (
     <>
-      <Navbar color="info" spaced={true} logo="/image/logos/logo512.png"/>
+      <Navbar color="info" spaced={true} logo="/image/pics/gacs.jpeg" />
 
-      <Slide/>
-      
+      <Slide />
+
       <Footer
         color="info"
         size="medium"
-        logo="/image/logos/logo512.png"
+        logo="/image/pics/gacs.jpeg"
         description="GACS programming team react project"
       />
-
-     
     </>
   );
 }
