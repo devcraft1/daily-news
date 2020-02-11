@@ -70,7 +70,7 @@ function Footer(props) {
                   <ul className="menu-list">
                     <li>
                       <a
-                        href="https://facebook.com/gacs"
+                        href="https://facebook.com/GACSNg"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -83,7 +83,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com/gacs"
+                        href="https://www.instagram.com/gacs_nigeria"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -96,7 +96,7 @@ function Footer(props) {
                     </li>
                     <li>
                       <a
-                        href="https://twitter.com/gacs"
+                        href="https://twitter.com/gacsnigeria"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

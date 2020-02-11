@@ -27,8 +27,8 @@ function Navbar(props) {
         </div>
         <div className={"navbar-menu" + (menuOpen ? " is-active" : "")}>
           <div className="navbar-end">
-            <Link className="navbar-item" to="/home">
-              Home
+            <Link className="navbar-item" to="/gallary">
+              Gallary
             </Link>
             {/* <Link className="navbar-item" to="/about">
                 About
