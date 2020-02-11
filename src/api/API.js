@@ -8,7 +8,7 @@ import Footer from "../component/Footer";
 //The API key from news_api is stored in the .env.development for private access
 const Api_key = process.env.REACT_APP_API_KEY;
 
-class APICall extends React.Component {
+class API extends React.Component {
   //The various states in play
   state = {
     dataSet: [],
@@ -121,4 +121,4 @@ class APICall extends React.Component {
   s;
 }
 
-export default APICall;
+export default API;
