@@ -8,10 +8,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/news" component={API} />
+        {/* <Route exact path="/news" component={API} />
         <Route exact path="/gallary" component={MainPage} />
-        <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/" component={MainPage} />
+        <Route exact path="/about" component={AboutPage} /> */}
+        <Route exact path="/" component={API} />
         <Route
           component={({ location }) => {
             return (
@@ -22,7 +22,11 @@ function App() {
                   textAlign: "center"
                 }}
               >
-                The page <code>{location.pathname}</code> could not be found.
+                <div style={{
+                  padding: "150px",
+                  width: "100%",
+                  textAlign: "center"
+                }}>Request <code>{location.pathname}</code> could not be found.</div>
               </div>
             );
           }}
