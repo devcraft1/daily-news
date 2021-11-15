@@ -2,10 +2,7 @@ import React from "react";
 import { countries, countryCodes } from "./countries";
 import Content from "./Content";
 import apiStyles from "./styles/API.module.css";
-// import Navbar from "../component/Navbar";
-// import Footer from "../component/Footer";
 
-//The API key from news_api is stored in the .env.development for private access
 const Api_key = process.env.REACT_APP_API_KEY;
 
 class API extends React.Component {
@@ -108,12 +105,7 @@ class API extends React.Component {
 
           {/* here i passed the loading and dataset/api data to the content component for rendering */}
           <Content loading={this.state.loading} content={this.state.dataSet} />
-          {/* <Footer
-            color="info"
-            size="medium"
-            logo="/image/pics/gacs.jpeg"
-            description="GACS programming team react project"
-          /> */}
+
         </div>
       </div>
     );
