@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './pages/app';
-// import * as serviceWorker from './serviceWorker';
 import API from './api/API'
 
 ReactDOM.render(<API />, document.getElementById('root'));
