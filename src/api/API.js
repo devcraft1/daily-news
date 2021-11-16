@@ -3,7 +3,7 @@ import { countries, countryCodes } from "./countries";
 import Content from "./Content";
 import apiStyles from "./styles/API.module.css";
 
-const Api_key = process.env.REACT_APP_API_KEY;
+const Api_key = "61eb1454095f4205b4c510c8367d8a23"
 
 class API extends React.Component {
   //The various states in play
